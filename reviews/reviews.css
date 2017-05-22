@@ -1,0 +1,77 @@
+@import url(../base.css);
+
+.section_reviews {
+	background: rgba(59, 67, 76, 0.9);
+	position: relative;
+	padding-top: 101px;
+	padding-bottom: 104px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.section_reviews::before {
+	content: "";
+	position: absolute;
+	background: url(pic/bg-reviews.png);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.container_reviews {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.reviews-arrow-left {
+	position: absolute;
+	top: 230px;
+	left: 53px;
+	opacity: 0.5;
+}
+
+.reviews-arrow-left:hover {
+	position: absolute;
+	top: 230px;
+	left: 53px;
+	opacity: 1;
+	transition: all 0.3s ease-out;
+}
+
+.reviews-avatar {
+	margin: 0 auto;
+	width: 120px;
+}
+
+.review-text {
+	color: #ffffff;
+	font-size: 25px;
+	font-style: italic;
+	line-height: 40px;
+	text-align: center;
+}
+
+.review-text #reviewer {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 40px;
+	text-align: center;
+	font-style: normal;
+}
+
+.reviews-arrow-right {
+	position: absolute;
+	top: 230px;
+	right: 53px;
+	opacity: 0.5;
+	transition: all 0.3s ease-out;
+}
+
+.reviews-arrow-right:hover {
+	position: absolute;
+	top: 230px;
+	right: 53px;
+	opacity: 1;
+}

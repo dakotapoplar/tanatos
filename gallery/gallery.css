@@ -1,0 +1,196 @@
+﻿@import url(../base.css);
+
+.section_gallery {
+	position: relative;
+	margin: 0 auto;
+	width: 1170px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.first-word_gallery {
+	color: #3b434c;
+}
+
+.gallery__paragraph {
+	margin: 29px auto;
+	color: #3b434c;
+}
+
+.gallery__block_wrap {
+	margin: 99px auto;
+	width: 1137px;
+	height: 748px;
+}
+
+.gallery__img {
+	width: 360px;
+	height: 360px;
+	float: left;
+	z-index: 3;
+}
+
+.gallery__img:hover {
+	z-index: 1;
+}
+
+.img1 {
+	margin-bottom: 28px;
+	background: url("pic/imac-606765-1920.png");
+}
+
+.img2 {
+	margin: 0 28px 28px 29px;
+	background: url("pic/office-605503-1920.png");
+}
+
+.img3 {
+	margin-bottom: 28px;
+	background: url("pic/business-925900-1920.png");
+}
+
+.img4 {
+	margin-bottom: 28px;
+	background: url("pic/ipad-606766-1920.png");
+}
+
+.img5 {
+	margin: 0 28px 28px 29px;
+	background: url("pic/technology-792180-1920.png");
+}
+
+.img6 {
+	margin-bottom: 28px;
+	background: url("pic/macbook-624707-1920.png");
+}
+
+.hide_wrapp1, .hide_wrapp2, .hide_wrapp3, .hide_wrapp4, .hide_wrapp5, .hide_wrapp6 {
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+.hide_wrapp1:hover, .hide_wrapp2:hover, .hide_wrapp3:hover, .hide_wrapp4:hover, .hide_wrapp5:hover, .hide_wrapp6:hover {
+	opacity: 1;
+}
+
+.gallery__block_hide {
+	width: 360px;
+	height: 360px;
+	border-radius: 10px;
+	background-color: #f7600e;
+	float: left;
+	opacity: 0.9;
+	z-index: 2;
+}
+
+.hide1 {
+	margin: -776px 0 0 0;
+}
+
+.hide2 {
+	margin: -388px 0 0 0;
+}
+
+.hide3 {
+	margin: -776px 0 0 389px;
+}
+
+.hide4 {
+	margin: -388px 0 0 389px;
+}
+
+.hide5 {
+	margin: -776px 0 0 777px;
+}
+
+.hide6 {
+	margin: -388px 0 0 777px;
+}
+
+.azaboo {
+	margin: 87px 72px 0 73px;
+	width: 215px;
+	height: 19px;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.azaboo_paragraph {
+	margin: 28px 54px 0 55px;
+	width: 251px;
+	height: 41px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.azaboo_button {
+	margin: 48px 75px 0 75px;
+	width: 210px;
+	height: 50px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.azaboo_button-link, .azaboo_button-link:hover, .azaboo_button-link:active {
+	text-decoration: none;
+	color: #f7600e;
+}
+
+.gallery__show_more {
+	margin: 0;
+	text-align: center;
+	color: #3b434c;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.gallery__show_more_button {
+	margin: 0 auto;
+	padding: 1% 5%;
+	display: block;
+	background: white;
+	border: 2px solid lightgray;
+}
+
+.gallery__show_more_button-link, .gallery__show_more_button-link:hover, .gallery__show_more_button-link:active {
+	text-decoration: none;
+	color: #3b434c;
+}
+
+.gallery__show_more_button:hover {
+	cursor: pointer;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 0;
+	visibility: hidden
+}
+
+.clearfix {
+	display: inline-block
+}
+
+
+/* Хак для IE 6 и 7 спрятанный от IE-mac*/
+
+* html .clearfix {
+	height: 1%
+}
+
+.clearfix {
+	display: block
+}
+
+
+/* Конец хака */

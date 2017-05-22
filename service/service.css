@@ -1,0 +1,53 @@
+@import url(../base.css);
+
+.section_service {
+	background-color: white;
+	padding-top: 101px;
+	padding-bottom: 109px;
+}
+
+.container_service {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.service-list {
+	font-size: 0;
+}
+
+.service-list-item {
+	width: 261px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 15px;
+}
+
+.service-list-item div {
+	border: 1px solid rgba(59, 67, 76, 0.3);
+	border-radius: 50%;
+	width: 151px;
+	line-height: 151px;
+	margin: 0 auto 4%;
+}
+
+.service-list-item img {
+	vertical-align: middle;
+	width: auto;
+}
+
+.service-title {
+	color: #3b434c;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.service-text {
+	color: #3b434c;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 25px;
+}

@@ -1,0 +1,134 @@
+@import url(../base.css);
+.section_team {
+  margin: 0 auto;
+  padding: 102px 16px;
+}
+
+.heading_description-team {
+  color: #3b434c;
+  margin: 0 auto 130px;
+}
+
+.first-word-team {
+  color: #3b434c;
+}
+
+.team-list {
+  margin: 0 auto;
+  font-size: 0;
+  text-align: center;
+}
+
+.team-list__item:last-child {
+  margin-right: 0;
+}
+
+.team-list__item {
+  vertical-align: top;
+  width: 242px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.worker-name {
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+}
+
+.worker-description {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  display: block;
+}
+
+.team_icon-soc {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 2% 10%;
+}
+
+.t_icon-fb {
+  background: url(pic/icon-fb.png);
+}
+
+.t_icon-tv {
+  background: url(pic/icon-tv.png);
+}
+
+.t_icon-gplus {
+  background: url(pic/icon-gplus.png);
+}
+
+.team-worker {
+  border-radius: 10px;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  margin-bottom: 30px;
+}
+
+.team-list>.team-list__item:hover .team-worker {
+  transform: scale(1.1);
+  transform-origin: bottom;
+  border-bottom-color: #f7600e;
+  border-radius: 10px 10px 0 0;
+}
+
+.team-list>.team-list__item:hover .worker-name {
+  color: #3b434c;
+}
+
+.team-list>.team-list__item:hover .t_icon-fb {
+  background: url(pic/icon-fb-hov.png);
+}
+
+.team-list>.team-list__item:hover .t_icon-tv {
+  background: url(pic/icon-tv-hov.png);
+}
+
+.team-list>.team-list__item:hover .t_icon-gplus {
+  background: url(pic/icon-gplus-hov.png);
+}
+
+.team-list>.team-list__item:hover .worker-description {
+  color: #3b434c;
+}
+
+[type="radio"] {
+  background: orange;
+}
+
+.t_button-block {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.team-button {
+  display: inline-block;
+  margin: 5px;
+}
+
+.team-radiobutton {
+  border: 0;
+  border-radius: 50%;
+  padding: 7px;
+  background: #3b434c;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.team-radiobutton:hover, .team-radiobutton:active {
+  background: #f7600e;
+  opacity: 1;
+  transform: scale(1.2);
+}

@@ -1,0 +1,125 @@
+﻿@import url(../base.css);
+
+header{
+	margin:0 auto;
+	width:1170px;
+}
+.navigation{
+	margin-bottom: 180px;
+	float:right;
+	font-size: 0;
+}
+.nav__menu{
+	display:inline-block;
+	margin: 2px 0 0 0;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17px;
+}
+.nav__menu-burger{
+	display:inline-block;
+	margin: 0 0 0 19px;
+	width: 26px;
+	height: 20px;
+	background:url("img/031--list.png");
+	vertical-align: top;
+}
+.header__logo{
+	width:158px;
+	height:18px;
+	background: url("img/logo.png") no-repeat;
+	background-size:100%;
+	float:left;
+}
+
+h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 58px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+.header__span_h1{
+	color: #f7600e;
+}
+.header__paragraph{
+	margin-top:50px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+.header__buttons_block{
+	margin: 60px 0 0 360px;
+ 	width:450px;
+}
+
+.button__hire_us{
+
+    width:210px;
+	height:50px;	
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 50px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background-color: #f7600e;
+	color:#fff;
+	float:left;
+}
+.button__our_works{
+	width:210px;
+	height:50px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 50px;
+	text-transform: uppercase;
+	border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+	color:#fff;
+	float:right;
+}
+.button__hire_us:hover,.button__our_works:hover{
+	 background-color: #ffd400 ;
+	 border-radius: 10px;
+	 font-size: 16px;
+	 font-weight: 600;
+	 line-height: 50px;
+	 text-transform: uppercase;
+	 transition: all 0.4s ease-out;
+	 cursor:pointer;
+}
+.nav__menu-burger:hover{
+	cursor:pointer;
+}
+.button__circle_arrow{
+	margin: 135px 0 0 566px;
+	width:34px;
+	height:34px;
+	background: url("img/014--circle-arrow-down.png") no-repeat;
+	background-size: 100%;
+}
+
+.section_header{
+	padding:50px 15px;
+	background: rgba(59, 67, 76, 0.9);
+	position: relative;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.section_header::before {
+	content: "";
+	position: absolute;
+	background: url(img/macbook-925614.jpg) no-repeat;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}

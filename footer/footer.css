@@ -1,0 +1,103 @@
+@import url(../base.css);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.section_footer {
+	background: rgba(59, 67, 76, 0.9);
+	position: relative;
+	padding-top: 102px;
+	padding-bottom: 110px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.section_footer::before {
+	content: "";
+	position: absolute;
+	background: url(pic/city.jpg);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.footer_container {
+	width: 829px;
+	margin: 0 auto;
+}
+
+.heading_description-footer {
+	color: white;
+	margin: 0 auto 97px;
+}
+
+.footer_user-email, .footer_user-name, .footer_user-text {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 2%;
+	margin-bottom: 2%;
+	border: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.footer_user-email {
+	float: left;
+	width: 45%;
+}
+
+.footer_user-name {
+	float: right;
+	width: 45%;
+}
+
+.footer_user-text {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	line-height: 20px;
+}
+
+.footer_button {
+	background-color: #f7600e;
+	padding: 1% 10%;
+	margin-bottom: 2%;
+}
+
+.footer_button-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer_social_links {
+	float: right;
+	width: 35%;
+}
+
+.footer_icon-soc {
+	width: 43px;
+	height: 43px;
+	display: inline-block;
+	margin: 2%;
+	cursor: pointer;
+}
+
+.f_icon-fb {
+	background: url(pic/fb.png);
+}
+
+.f_icon-tv {
+	background: url(pic/tv.png);
+}
+
+.f_icon-gplus {
+	background: url(pic/gplus.png);
+}
+
+.f_icon-ball {
+	background: url(pic/ball.png);
+}
+
+.f_icon-behan {
+	background: url(pic/be.png);
+}
