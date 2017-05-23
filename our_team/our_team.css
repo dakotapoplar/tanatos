@@ -1,12 +1,17 @@
 @import url(../base.css);
 .section_team {
-  margin: 0 auto;
   padding: 102px 16px;
 }
 
 .heading_description-team {
   color: #3b434c;
   margin: 0 auto 130px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .first-word-team {
@@ -25,7 +30,7 @@
 
 .team-list__item {
   vertical-align: top;
-  width: 242px;
+  max-width: 242px;
   display: inline-block;
   text-align: center;
   margin-right: 32px;
@@ -47,6 +52,7 @@
   line-height: 26px;
   text-align: center;
   display: block;
+  margin-bottom: 20%;
 }
 
 .team_icon-soc {
@@ -131,4 +137,27 @@
   background: #f7600e;
   opacity: 1;
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 1120px) {
+  .team-list__item {
+    max-width: 36%;
+  }
+  
+  .team-list__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-list {
+    text-align: center;
+  }
+  .team-list__item {
+    margin-right: 0;
+    max-width: 96%;
+  }
+  .t_button-block {
+    margin-top: 0;
+  }
 }
