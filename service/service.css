@@ -1,53 +1,73 @@
 @import url(../base.css);
-
 .section_service {
-	background-color: white;
-	padding-top: 101px;
-	padding-bottom: 109px;
+    background-color: white;
+    padding-top: 101px;
+    padding-bottom: 109px;
 }
 
 .container_service {
-	width: 1170px;
-	margin: 0 auto;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .service-list {
-	font-size: 0;
+    font-size: 0;
 }
 
 .service-list-item {
-	width: 261px;
-	display: inline-block;
-	text-align: center;
-	margin: 0 15px;
+    width: 261px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px;
 }
 
 .service-list-item div {
-	border: 1px solid rgba(59, 67, 76, 0.3);
-	border-radius: 50%;
-	width: 151px;
-	line-height: 151px;
-	margin: 0 auto 4%;
+    border: 1px solid rgba(59, 67, 76, 0.3);
+    border-radius: 50%;
+    width: 151px;
+    line-height: 151px;
+    margin: 0 auto 4%;
 }
 
 .service-list-item img {
-	vertical-align: middle;
-	width: auto;
+    vertical-align: middle;
+    width: auto;
 }
 
 .service-title {
-	color: #3b434c;
-	font-size: 16px;
-	text-transform: uppercase;
-	line-height: 40px;
-	text-align: center;
-	margin-bottom: 5%;
+    color: #3b434c;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .service-text {
-	color: #3b434c;
-	font-size: 14px;
-	line-height: 26px;
-	text-align: center;
-	margin: 0 25px;
+    color: #3b434c;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 25px;
+}
+
+@media screen and (min-width: 320px) {
+    .container_service {
+        max-width: 1170px;
+        width: 100%;
+    }
+    .service-list {
+        text-align: center;
+    }
+    .service-list-item {
+        margin: 10px 15px;
+    }
+    .service-title {
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+    .service-text {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 }
