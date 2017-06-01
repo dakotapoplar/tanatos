@@ -7,12 +7,15 @@
 	padding-top: 102px;
 	padding-bottom: 110px;
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+	background-size: cover;
+	min-height: 100vh;
 }
 
 .section_footer::before {
 	content: "";
 	position: absolute;
 	background: url(pic/city.jpg);
+	background-size: cover;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -21,7 +24,8 @@
 }
 
 .footer_container {
-	width: 829px;
+	max-width: 829px;
+	padding: 0 10px;
 	margin: 0 auto;
 }
 
@@ -38,16 +42,17 @@
 	border: 0;
 	font-size: 16px;
 	font-weight: 400;
+	box-sizing: border-box;
 }
 
 .footer_user-email {
 	float: left;
-	width: 45%;
+	width: 49%;
 }
 
 .footer_user-name {
 	float: right;
-	width: 45%;
+	width: 49%;
 }
 
 .footer_user-text {
@@ -71,7 +76,8 @@
 
 .footer_social_links {
 	float: right;
-	width: 35%;
+	width: 290px;
+	text-align: center;
 }
 
 .footer_icon-soc {
@@ -100,4 +106,28 @@
 
 .f_icon-behan {
 	background: url(pic/be.png);
+}
+
+@media screen and (max-width: 768px) {
+	.footer_user-email, .footer_user-name {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer_social_links {
+		width: 100%;
+	}
+	.footer_container {
+		text-align: center;
+	}
+
+	.footer_button {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.section_footer{
+		padding-bottom: 0;
+	}
 }
