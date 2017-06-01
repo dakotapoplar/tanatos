@@ -109,8 +109,8 @@
 
 .azaboo {
 	margin: 87px 72px 0 73px;
-	width: 215px;
-	height: 19px;
+	min-width: 215px;
+	min-height: 19px;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 600;
@@ -120,8 +120,8 @@
 
 .azaboo_paragraph {
 	margin: 28px 54px 0 55px;
-	width: 251px;
-	height: 41px;
+	min-width: 251px;
+	min-height: 41px;
 	text-align: center;
 	color: #ffffff;
 	font-size: 14px;
@@ -131,8 +131,8 @@
 
 .azaboo_button {
 	margin: 48px 75px 0 75px;
-	width: 210px;
-	height: 50px;
+	min-width: 210px;
+	min-height: 50px;
 	background-color: #ffffff;
 	text-align: center;
 }
@@ -142,14 +142,7 @@
 	color: #f7600e;
 }
 
-.gallery__show_more {
-	margin: 0;
-	text-align: center;
-	color: #3b434c;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 40px;
-}
+
 
 .gallery__show_more_button {
 	margin: 0 auto;
@@ -194,3 +187,82 @@
 
 
 /* Конец хака */
+
+
+@media screen and (max-device-width: 480px){
+	.section_gallery{
+	margin: 0 auto;
+	max-width: 1170px;
+	}
+	.section_heading{
+		font-size:5.5rem;
+	}
+	.gallery__paragraph{
+		margin-top:9%;
+		font-size: 1.4rem;
+	}
+	.gallery__block_wrap{
+		text-align: center;
+	}
+	.gallery__img,.gallery__block_hide{
+		clear:both;
+		display: inline-block;
+		margin-left:1.5%;
+		width:1100px;
+		height:1100px;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	.img1{
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100%; 
+	}
+
+	.hide1{
+		clear: both;
+		margin-top: -6768px;
+		text-align: center;
+	}
+	.hide2{
+		clear: both;
+		margin-top: -5641px;
+	}
+	.hide3{
+		clear: both;
+		margin-top: -4512px;
+	}
+	.hide4{
+		clear: both;
+		margin-top: -3388px;
+	}
+	.hide5{
+		clear: both;
+		margin-top: -2257px;
+	}
+	.hide6{
+		clear: both;
+		margin-top: -1129px;
+	}
+	.gallery__show_more_button {
+		clear:both;
+		margin-top:0;
+	}
+
+	.azaboo{
+		display: inline-block;
+		font-size:5rem;
+		text-align: center;
+	}
+	.azaboo_paragraph{
+		display:block;
+		margin: 200px auto;
+		max-width:700px;
+		font-size: 2rem;
+		text-align: center;
+	}
+	.azaboo_button{
+		width: 270px;
+		height: 90px;
+	}
+}
