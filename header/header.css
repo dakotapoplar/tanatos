@@ -2,7 +2,8 @@
 
 header{
 	margin:0 auto;
-	width:1170px;
+	max-width:1170px;
+	text-align: center;
 }
 .navigation{
 	margin-bottom: 180px;
@@ -48,42 +49,47 @@ h1{
 	margin-top:50px;
 	text-align: center;
 	color: #ffffff;
-	font-size: 25px;
+	font-size: 1.4rem;
 	font-weight: 400;
 	line-height: 40px;
 }
 
 .header__buttons_block{
-	margin: 60px 0 0 360px;
- 	width:450px;
+	display: inline-block;
+	margin-top: 60px;
+	text-align: center;
 }
 
 .button__hire_us{
-
-    width:210px;
-	height:50px;	
+	display: inline-block;
+	margin-right:15px;
+	margin-left:-15px;
+    min-width:210px;
+	min-height:50px;	
 	text-align: center;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 50px;
 	text-transform: uppercase;
+	border:0px solid transparent;
 	border-radius: 10px;
 	background-color: #f7600e;
 	color:#fff;
-	float:left;
 }
 .button__our_works{
-	width:210px;
-	height:50px;
+	display: inline-block;
+	min-width:210px;
+	min-height:50px;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 50px;
 	text-transform: uppercase;
+	border:0px solid transparent;
 	border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
 	color:#fff;
-	float:right;
 }
 .button__hire_us:hover,.button__our_works:hover{
 	 background-color: #ffd400 ;
@@ -99,7 +105,7 @@ h1{
 	cursor:pointer;
 }
 .button__circle_arrow{
-	margin: 135px 0 0 566px;
+	margin: 135px auto;
 	width:34px;
 	height:34px;
 	background: url("img/014--circle-arrow-down.png") no-repeat;
@@ -116,10 +122,69 @@ h1{
 .section_header::before {
 	content: "";
 	position: absolute;
-	background: url(img/macbook-925614.jpg) no-repeat;
+	background-image: url(img/macbook-925614.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
+}
+
+
+
+
+
+@media screen and (max-device-width: 480px){
+	.nav__menu-burger{
+	margin-right:20px;
+	margin-top: -10px;
+	width:50px;
+	height:50px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	}
+	h1{
+		margin-top: 44%;
+	}
+	.header__span_h1{
+		margin-top:5%;
+		display: block !important;;
+	}
+	.header__paragraph{
+		margin-top: 25.6%;
+		font-size:1.37444rem;
+	}
+	.header__buttons_block{
+		display:block;
+	}
+	.button__hire_us{
+		display:block;
+		margin:5% auto;
+		width:210px;
+		height:50px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 50px;
+		text-transform: uppercase;
+		border-radius: 10px;
+	    border: 1px solid rgba(255, 255, 255, 0.2);
+		color:#fff;
+	}
+	.button__our_works{
+		display:block;
+		margin:0 auto;
+		width:210px;
+		height:50px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 50px;
+		text-transform: uppercase;
+		border-radius: 10px;
+	    border: 1px solid rgba(255, 255, 255, 0.2);
+		color:#fff;
+	}
 }
