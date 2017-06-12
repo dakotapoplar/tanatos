@@ -11,6 +11,9 @@
     content: "";
     position: absolute;
     background: url(pic/bg-reviews.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     top: 0;
     left: 0;
     right: 0;
